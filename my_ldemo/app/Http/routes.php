@@ -12,10 +12,7 @@
 */
 
 Route::get('/', function () {
-    //return view('welcome');
-    //$user = new App\User();
-    //dd($users);相当于var_dum
-    return \App\Member::all();
+   return view('login');
 
 });
 
